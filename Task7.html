@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nav Bar</title>
+    <style>
+        .navbar, ul{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            background-color: rgb(255, 153, 0);
+            width: 100px;
+        }
+        .navbar ul{
+            list-style: none;
+            padding: 0;
+        }
+        .navbar li{
+            padding: 5px;
+            text-align: left;
+        }
+        .navbar a{
+            text-decoration:none;
+            font-size: medium;
+            color: black;
+            display:block;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover{
+            background-color: orange;
+        }
+        .navbar2{
+            text-align: center;
+            padding: 0;
+            margin: 0 auto;
+            margin-top: 0;
+        }
+        .navbar2{
+            background-color: rgb(181, 181, 181);
+            width: 70%;
+        }
+        .navbar2 a{
+            text-decoration:none;
+            font-size: large;
+            color: blue;
+            padding: 10px;
+            display:inline-block;
+            transition: background-color 0.3s;
+        }
+        .navbar2 a:hover{
+            background-color: rgb(219, 228, 236);
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <nav class="navbar2">
+        <a href="https://www.w3schools.com/html/">Home</a>
+        <a href="https://www.w3schools.com/html/">Java</a>
+        <a href="https://www.w3schools.com/html/">HTML</a>
+        <a href="https://www.w3schools.com/html/">CSS</a>
+        <a href="https://www.w3schools.com/html/">BootStrap</a>
+    </nav>
+</table>
+<table>
+    <nav class="navbar">
+        <ul>
+            <li><a href="https://www.w3schools.com/html/">Home</a></li>
+            <li><a href="https://www.w3schools.com/html/">Java</a></li>
+            <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+            <li><a href="https://www.w3schools.com/html/">CSS</a></li>
+            <li><a href="https://www.w3schools.com/html/">BootStrap</a></li>
+        </ul>
+    </nav>
+</table>
+</body>
+</html>
